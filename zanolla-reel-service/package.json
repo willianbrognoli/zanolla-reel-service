@@ -1,0 +1,17 @@
+{
+  "name": "zanolla-reel-service",
+  "version": "1.0.0",
+  "description": "Servico de render de Reels/Shorts a partir de cards HTML. Puppeteer + ffmpeg.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "puppeteer": "^23.6.0",
+    "fluent-ffmpeg": "^2.1.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
